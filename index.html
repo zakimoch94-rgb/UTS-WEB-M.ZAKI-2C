@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio interaktif mahasiswa Sistem Informasi UNP Kediri: profil, proyek web, estimasi biaya, dan kontak.">
+  <meta name="author" content="Muhammad Zaki Khoirul Ahlam">
+  <title>Portofolio Nama Lengkap Anda | Mahasiswa Sistem Informasi</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="visually-hidden-focusable" href="#konten">Lewati ke konten utama</a>
+
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-md bg-body border-bottom" aria-label="Navigasi utama">
+      <div class="container">
+        <a class="navbar-brand brand" href="#beranda"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Buka menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto align-items-md-center gap-md-1">
+            <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+            <li class="nav-item"><a class="nav-link" href="#estimasi">Estimasi Biaya</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            <li class="nav-item ms-md-2">
+              <button id="themeToggle" class="btn btn-outline-secondary btn-sm" type="button" aria-pressed="false">Mode gelap</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="konten">
+    <section id="beranda" class="hero py-5">
+      <div class="container">
+        <div class="row align-items-center g-4 py-md-4">
+          <div class="col-md-7 order-2 order-md-1">
+            <p class="text-body-secondary mb-2">Halo, Saya Mahasiswa UNP Kediri</p>
+            <h1 class="display-4 fw-bold">Muhammad Zaki Khoirul Ahlam.</h1>
+            <p class="lead mt-3">Saya mahasiswa Sistem Informasi UNP Kediri yang tertarik pada pengembangan website dan teknologi digital. Saya mempelajari HTML, CSS, Bootstrap, dan JavaScript untuk membangun website yang modern, responsif, dan mudah digunakan. Di halaman ini, kamu dapat melihat proyek dan kemampuan yang terus saya kembangkan.</p>
+            <div class="d-flex flex-wrap gap-2 mt-4">
+              <a class="btn btn-primary btn-lg" href="#proyek">Lihat proyek</a>
+              <a class="btn btn-outline-secondary btn-lg" href="#kontak">Hubungi saya</a>
+            </div>
+          </div>
+          <div class="col-8 col-md-4 offset-md-1 order-1 order-md-2 mx-auto">
+            <img src="c:\Users\Lenovo\Downloads\WhatsApp Image 2026-10-27 at 17.34.17.jpeg" class="img-fluid rounded-circle profil" alt="Foto profil Nama Lengkap Anda" width="320" height="320">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row g-4">
+          <article class="col-lg-7">
+            <h2 class="h1">Tentang saya</h2>
+            <p>Saya adalah mahasiswa Program Studi Sistem Informasi di Universitas Nusantara PGRI Kediri. Saya memiliki ketertarikan pada pengembangan website, desain antarmuka, dan teknologi informasi. Saya senang mempelajari hal-hal baru serta mengembangkan kemampuan dalam HTML, CSS, Bootstrap, dan JavaScript.
+
+Melalui berbagai proyek sederhana, saya berusaha mengembangkan keterampilan dalam membangun website yang menarik, responsif, dan mudah digunakan.</p>
+            <p>NPM: <strong>2513020071</strong> &middot; Kota: Kediri &middot; Email: <a href="mailto:email@contoh.com">zakimoch94@gmail.com</a></p>
+          </article>
+          <aside class="col-lg-5" aria-label="Keahlian">
+            <h2 class="h4">Keahlian</h2>
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between"><span>HTML5 &amp; Semantik</span><span>85%</span></div>
+              <div class="progress" role="progressbar" aria-label="HTML5" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:85%"></div></div>
+            </div>
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between"><span>CSS &amp; Bootstrap</span><span>80%</span></div>
+              <div class="progress" role="progressbar" aria-label="CSS dan Bootstrap" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:80%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="d-flex justify-content-between"><span>JavaScript Dasar</span><span>70%</span></div>
+              <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:70%"></div></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyek" class="py-5">
+      <div class="container">
+        <h2 class="h1">Proyek saya</h2>
+        <p class="text-body-secondary">Cari berdasarkan judul atau kategori.</p>
+        <form class="row g-2 mb-4" role="search" onsubmit="return false">
+          <div class="col-md-7">
+            <label class="visually-hidden" for="cariProyek">Cari proyek</label>
+            <input type="search" id="cariProyek" class="form-control" placeholder="Cari proyek, misalnya: kasir">
+          </div>
+          <div class="col-md-5">
+            <label class="visually-hidden" for="filterKategori">Kategori</label>
+            <select id="filterKategori" class="form-select">
+              <option value="semua">Semua kategori</option>
+              <option value="web">Web</option>
+              <option value="sistem">Sistem Informasi</option>
+              <option value="desain">Desain UI</option>
+            </select>
+          </div>
+        </form>
+        <p id="hasilProyek" class="small text-body-secondary" aria-live="polite"></p>
+
+        <div class="row g-4" id="daftarProyek">
+          <article class="col-sm-6 col-lg-4 proyek" data-kategori="web" data-judul="web aplikasi kasir">
+            <div class="card h-100"><img src="img/aplikasi_kasir_restoran_3-1024x768.png" class="card-img-top" alt="Tampilan proyek Web Aplikasi Kasir" loading="lazy">
+              <div class="card-body"><h3 class="h5 card-title">Aplikasi Kasir</h3><p class="card-text">Sistem kasir digital untuk mengelola transaksi, menghitung total belanja, dan mempermudah pencatatan penjualan.</p><span class="badge text-bg-secondary">Web</span></div></div>
+          </article>
+          <article class="col-sm-6 col-lg-4 proyek" data-kategori="web" data-judul="web toko online">
+            <div class="card h-100"><img src="img/toko online.png" class="card-img-top" alt="Tampilan proyek Toko Online" loading="lazy">
+              <div class="card-body"><h3 class="h5 card-title">Web Toko Online</h3><p class="card-text">Website e-commerce untuk menampilkan produk, memberikan informasi harga, dan memudahkan pelanggan berbelanja secara online.</p><span class="badge text-bg-secondary">Web</span></div></div>
+          </article>
+          <article class="col-sm-6 col-lg-4 proyek" data-kategori="web" data-judul="landing page">
+            <div class="card h-100"><img src="img/dashbord.png" class="card-img-top" alt="Tampilan proyek dashboard penjualan" loading="lazy">
+              <div class="card-body"><h3 class="h5 card-title">Desain Dashboard Penjualan</h3><p class="card-text">Dashboard interaktif untuk menyajikan data penjualan, memantau performa bisnis, dan membantu proses pengambilan keputusan.</p><span class="badge text-bg-secondary">Web</span></div></div>
+          </article>
+          
+          
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="estimasi" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="h1">Estimasi biaya proyek</h2>
+        <p class="text-body-secondary">Pilih kebutuhan Anda, hasil dihitung langsung.</p>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <form id="formEstimasi" class="row g-3" novalidate>
+              <div class="col-md-6">
+                <label for="jenisWeb" class="form-label">Jenis website</label>
+                <select id="jenisWeb" class="form-select">
+                  <option value="1500000">Aplikasi kasir (Rp 3.500.000)</option>
+                  <option value="3500000">Toko online (Rp 5.000.000)</option>
+                  <option value="6000000">Dashboard penjualan (Rp 2.000.000)</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="jumlahHalaman" class="form-label">Jumlah halaman</label>
+                <input type="number" id="jumlahHalaman" class="form-control" value="1" min="1" max="50">
+                <div class="invalid-feedback">Isi angka 1 sampai 50.</div>
+              </div>
+              
+                <label for="kecepatan" class="form-label">Kecepatan pengerjaan</label>
+                <select id="kecepatan" class="form-select">
+                  <option value="1">Normal (20 hari)</option>
+                  <option value="1.5">Cepat (10 hari, +50%)</option>
+                </select>
+              </div>
+              <div class="col-12 d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Hitung estimasi</button>
+                <button type="reset" class="btn btn-outline-secondary">Atur ulang</button>
+              </div>
+            </form>
+          </div>
+          <aside class="col-lg-5" aria-live="polite">
+            <div class="card hasil h-100"><div class="card-body">
+              <h3 class="h5">Rincian biaya</h3>
+              <dl class="row mb-0" id="rincian"><dt class="col-12 fw-normal text-body-secondary">Tekan “Hitung estimasi” untuk melihat hasil.</dt></dl>
+            </div></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <h2 class="h1">Kontak</h2>
+            <p class="text-body-secondary">Kirim pesan, saya balas lewat email.</p>
+            <div id="notifKontak" role="status"></div>
+            <form id="formKontak" novalidate>
+              <div class="mb-3"><label for="nama" class="form-label">Nama</label><input type="text" id="nama" class="form-control" autocomplete="name"><div class="invalid-feedback">Nama minimal 3 huruf.</div></div>
+              <div class="mb-3"><label for="email" class="form-label">Email</label><input type="email" id="email" class="form-control" autocomplete="email"><div class="invalid-feedback">Masukkan email yang valid, misalnya nama@contoh.com.</div></div>
+              <div class="mb-3"><label for="pesan" class="form-label">Pesan</label><textarea id="pesan" class="form-control" rows="4"></textarea><div class="invalid-feedback">Pesan minimal 10 karakter.</div></div>
+              <button type="submit" class="btn btn-primary">Kirim pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-top py-4">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between gap-2 small text-body-secondary">
+      <p class="mb-0">&copy; 2026 Muhammad Zaki Khoirul Ahlam. UTS Pemrograman Web, UNP Kediri.</p>
+      <p class="mb-0"><a href="https://github.com/username/UTS-WEB-NAMA">Repository GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
