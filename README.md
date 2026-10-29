@@ -2,7 +2,7 @@
 
 Portofolio interaktif untuk UTS Pemrograman Web, Prodi Sistem Informasi, Universitas Nusantara PGRI Kediri.
 
-**Live:** https://username.github.io/UTS-WEB-NAMA/
+**Live:**  https://zakimoch94-rgb.github.io/UTS-WEB-M.ZAKI-2C/
 
 ## Fitur
 - HTML5 semantik (`header`, `nav`, `main`, `section`, `article`, `aside`, `footer`) dengan meta tag lengkap
