@@ -1,4 +1,4 @@
-# UTS-WEB-NAMA
+# UTS-WEB-M.ZAKI-2C
 
 Portofolio interaktif untuk UTS Pemrograman Web, Prodi Sistem Informasi, Universitas Nusantara PGRI Kediri.
 
